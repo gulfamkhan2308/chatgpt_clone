@@ -1,19 +1,105 @@
 /* Apply styles to the entire header */
+*{
+    padding: 0;
+    margin: 0;
+}
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black; /* Black background for the header */
-    padding: 10px 20px; /* Adjust padding to control spacing */
+    //*padding: 10px 20px; /* Adjust padding to control spacing */
     color: white; /* Text color */
+}
+.logo-deopdown{
+    display: flex;
+    align-items: center;
+    
+}
+
+.dropdown-main{
+    margin-left: 60px;
+}
+.h2text{
+    margin-left: 18%;
 }
 
 /* Style the logo image */
 .logo {
-    width: 80;
-    height: 80px; /* Adjust the height as needed */
+    width: 180px;
+    height: 90px; /* Adjust the height as needed */
 
 }
+
+
+
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #14A800;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a  background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dall{
+    font-size: 70px;
+    margin-left: 18%;
+}
+
+
+
+
+
+
+
+
+
 .text{
     width: 500px;
     border-radius: 50px;
@@ -23,6 +109,7 @@ background-color: #000000;
     background-color: #000000;
     color: white;
     flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 .border{
     border-radius: 0px;
@@ -72,7 +159,7 @@ margin: 10px;
     flex-direction: column;
 }
 .lina{
-     height: 1px;
+     height: 0.1px;
      background-color: white;
 }
 .linb{
@@ -128,35 +215,35 @@ margin: 10px;
     background-color: white;
 }
 .lino{
-    height: 15px;
-    background-color: white;
-}
-.linp{
     height: 16px;
     background-color: white;
 }
-.linq{
+.linp{
     height: 17px;
     background-color: white;
 }
-.linr{
+.linq{
     height: 18px;
     background-color: white;
 }
-.lins{
+.linr{
     height: 19px;
     background-color: white;
 }
-.lint{
+.lins{
     height: 20px;
     background-color: white;
 }
-.linu{
+.lint{
     height: 21px;
     background-color: white;
 }
-.linv{
+.linu{
     height: 22px;
+    background-color: white;
+}
+.linv{
+    height: 23px;
     background-color: white;
 }
 .linaw {
